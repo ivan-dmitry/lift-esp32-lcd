@@ -1,0 +1,14 @@
+# PlatformIO build output and editor state
+firmware/.pio/
+firmware/.vscode/
+.vscode/
+
+# Built images (release them as GitHub release assets instead)
+*.bin
+
+# The technician code for network updates — never commit it
+ota_code.txt
+firmware/ota_code.txt
+
+# GPG public key exported for GitHub (not part of the project)
+*.asc
